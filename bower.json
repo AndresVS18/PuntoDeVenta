@@ -1,0 +1,20 @@
+{
+  "name": "PuntoDeVenta",
+  "homepage": "https://github.com/AndresVS18/PuntoDeVenta",
+  "authors": [
+    "AndresVS18 <andres_vaz.so@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
