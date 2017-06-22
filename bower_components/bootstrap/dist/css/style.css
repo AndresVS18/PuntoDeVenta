@@ -1,0 +1,42 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #222;
+  border-color: #080808;
+  color: #9d9d9d;
+  padding-bottom: 40px;
+}
+
+.footer-copy{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: #333;
+  color: #ccc;
+  padding: 5px 0;
+}
+
+.footer h4,h3{
+  color: #d9534f;
+}
+
+hr{
+  border-top: 1px solid #ddd;
+}
+
+.features .fa{
+  font-size: 32px;
+  color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-left li > a{
+  font-size: 18px;
+  color: #d9534f;
+}
+
+.navbar-inverse .navbar-right li > a{
+  color: #d9534f;
+}

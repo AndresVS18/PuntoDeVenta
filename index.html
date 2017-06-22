@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Punto de Venta</title>
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/style.css">
+  <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="./bower_components/font-awesome-animation/dist/font-awesome-animation.css">
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">Logo</a>
+        <button class="navbar-toggle" type="button" name="navbar-toggle-navigation" data-toggle="collapse" data-target="#menu-collapse">
+          <span class="sr-only">Toggle navigation!</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Navba-header -->
+      <div class="collapse navbar-collapse" id="menu-collapse">
+        <ul class="nav navbar-nav features navbar-left">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav features navbar-right">
+          <li><a href="#">Checkout</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal-login-form">Log in</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal-register-form">Register</a></li>
+        </ul>
+      </div>
+      <!-- Menu -->
+    </div>
+  </div>
+  <!-- HEADER -->
+
+  <div class="container">
+
+  </div>
+  <!-- CUERPO DE PÁGINA -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Information</h3>
+          <ul class="list-unstyled">
+            <li>Best sellers</li>
+            <li>Our stores</li>
+            <li>Contact us</li>
+          </ul>
+          <h3>My account</h3>
+          <ul class="list-unstyled">
+            <li>My orders</li>
+            <li>My credit lips</li>
+            <li>My info</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Terms &amp; Conditions</h3>
+          <ul class="list-unstyled">
+            <li>Help</li>
+            <li>Terms &amp; conditions</li>
+            <li>Shipping support</li>
+            <li>Press room</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Customer Services</h3>
+          <ul class="list-unstyled">
+            <li>Shipping &amp; Returns</li>
+            <li>Secure Shopping</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>Suscribe for news! </h3>
+          <form action="" class="navbar-form" role="suscribe" style="padding-left:0;">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your e-mail" name="email-news">
+              <div class="input-group-btn">
+                <button type="submit" name="button" class="btn btn-danger"><i class="glyphicon glyphicon-envelope"></i></button>
+              </div>
+            </div>
+          </form>
+          <h3>Follow us</h3>
+          <ul class="list-unstyled list-inline features">
+            <li>
+              <a href="#"><i class="fa fa-facebook-square faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter-square faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-rss faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus-square faa-vertical animated-hover"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="footer-copy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy; @Web todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER-->
+
+  <!-- MODAL LOGIN -->
+  <div class="modal fade" id="modal-login-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>Log in</h3>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="login-user" class="form-control-label">Username:</label>
+              <input type="text" placeholder="Enter your username" class="form-control" id="login-user">
+            </div>
+            <div class="form-group">
+              <label for="login-password" class="form-control-label">Password:</label>
+              <input type="password" class="form-control" id="login-password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Log In">
+                <button class="btn btn-danger pull-right" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL REGISTER -->
+  <div class="modal fade" id="modal-register-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>Register</h3>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="register-user" class="form-control-label">Username:</label>
+              <input type="text" placeholder="Enter your username" class="form-control" id="register-user">
+            </div>
+            <div class="form-group">
+              <labe class="form-control-label" for="register-email">E-mail:</labe>
+              <input type="e-mail" class="form-control" placeholder="Enter your email" id="register-email">
+            </div>
+            <div class="form-group">
+              <label for="register-password" class="form-control-label">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter your password" id="register-password">
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Register now!">
+                <button class="btn btn-danger pull-right" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
