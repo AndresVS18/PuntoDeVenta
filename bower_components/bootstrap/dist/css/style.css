@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: auto;
@@ -10,13 +10,29 @@
 }
 
 .footer-copy{
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: auto;
   background: #333;
   color: #ccc;
   padding: 5px 0;
+}
+h1{
+  color: #d9534f;
+}
+h1 small{
+  color: #d9534f;
+}
+h4 a{
+  color: #d9534f;
+}
+li a{
+  color: #d9534f;
+}
+
+body{
+  background-color: #EEEEEE;
 }
 
 .footer h4,h3{
