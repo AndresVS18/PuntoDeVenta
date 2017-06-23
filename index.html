@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- HEADER -->
   <div class="navbar navbar-inverse navbar-static-top">
     <div class="container">
       <div class="navbar-header">
@@ -41,11 +42,58 @@
   </div>
   <!-- HEADER -->
 
-  <div class="container">
-
-  </div>
   <!-- CUERPO DE PÁGINA -->
+  <div class="container">
+    <div class="row">
 
+    </div>
+
+    <!-- SLIDER PRINCIPAL -->
+    <div class="row">
+      <div class="carousel slide" id="carousel-index" data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-index" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-index" data-slide-to="1"></li>
+          <li data-target="#carousel-index" data-slide-to="2"></li>
+        </ol>
+        <!-- /Indicadores -->
+        <!-- CONTENIDO -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/slide-1.png" alt="">
+            <div class="carousel-caption">
+              <h2>Hola</h2>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slide-2.jpg" alt="">
+            <div class="carousel-caption">
+              <h2>Hola</h2>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slide-3.jpg" alt="">
+            <div class="carousel-caption">
+              <h2>Hola</h2>
+            </div>
+          </div>
+        </div>
+        <!-- /CONTENIDO -->
+        <!-- CONTROLES -->
+        <a href="#carousel-index" class="left carousel-control" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel-index" class="right carousel-control" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+    <!-- /SLIDER PRINCIPAL -->
+  </div>
+  <!-- /CUERPO DE PÁGINA -->
+
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -72,7 +120,7 @@
             <li>Press room</li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
+        <div class="col-md-3 col-sm-6 col-xs-6re">
           <h3>Customer Services</h3>
           <ul class="list-unstyled">
             <li>Shipping &amp; Returns</li>
@@ -121,7 +169,7 @@
       </div>
     </div>
   </footer>
-  <!-- FOOTER-->
+  <!-- /FOOTER-->
 
   <!-- MODAL LOGIN -->
   <div class="modal fade" id="modal-login-form" role="dialog">
@@ -189,6 +237,13 @@
 
   <script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
   <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.carousel').carousel({
+        interval: 3000
+      });
+    });
+  </script>
 </body>
 
 </html>
