@@ -28,7 +28,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="contact.html" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
         </ul>
         <ul class="nav navbar-nav features navbar-right">
           <li><a href="#">Checkout</a></li>
@@ -123,6 +123,50 @@
   </footer>
   <!-- FOOTER-->
 
+<!-- About US -->
+<div class="modal fade" id="modal-contact-form" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h3>SEND A MENSSAGE</h3>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="contact-name" class="form-control-label">Subject Heading:</label>
+            <select class="form-control" name="">
+              <option value="0">-- Choose ---</option>
+              <option value="1">Custumer Service </option>
+              <option value="2">Webmaster</option>
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-email" class="form-control-label">Email Address:</label>
+            <input type="email" class="form-control" id="contact-email">
+          </div>
+          <div class="form-group">
+            <label for="contact-email" class="form-control-label">Order Reference:</label>
+            <input type="email" class="form-control" id="contact-email">
+          </div>
+          <div class="form-group">
+            <label for="contact-message" class="form-control-label">Message:</label>
+            <textarea name="" id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="controls">
+              <input type="submit" class="btn btn-primary" value="Send Message">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- MODAL LOGIN -->
   <div class="modal fade" id="modal-login-form" role="dialog">
     <div class="modal-dialog">
@@ -161,6 +205,7 @@
           <h3>Register</h3>
         </div>
         <div class="modal-body">
+
           <form>
             <div class="form-group">
               <label for="register-user" class="form-control-label">Username:</label>
