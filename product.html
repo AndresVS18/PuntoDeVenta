@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Punto de Venta</title>
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/style.css">
+  <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="./bower_components/font-awesome-animation/dist/font-awesome-animation.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">Logo</a>
+        <button class="navbar-toggle" type="button" name="navbar-toggle-navigation" data-toggle="collapse" data-target="#menu-collapse">
+          <span class="sr-only">Toggle navigation!</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Navba-header -->
+      <div class="collapse navbar-collapse" id="menu-collapse">
+        <ul class="nav navbar-nav features navbar-left">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav features navbar-right">
+          <li><a href="#">Checkout</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal-login-form">Log in</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#modal-register-form">Register</a></li>
+        </ul>
+      </div>
+      <!-- Menu -->
+    </div>
+  </div>
+  <!-- HEADER -->
+
+  <!-- CUERPO DE PÁGINA -->
+  <div class="container">
+    <!-- ENCABEZADO -->
+    <div class="col-md-2 text-center">
+      <div class="list-group">
+        <h5 class="list-group-item">Categorias</h5>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger" role="button">Deportivo</li>
+          <li class="list-group-item list-group-item-danger" role="button">Sandalias</li>
+          <li class="list-group-item list-group-item-danger" role="button">Botas</li>
+          <li class="list-group-item list-group-item-danger" role="button">Zapatillas</li>
+          <li class="list-group-item list-group-item-danger" role="button">Charol</li>
+          <li class="list-group-item list-group-item-danger" role="button">Mujeres</li>
+          <li class="list-group-item list-group-item-danger" role="button">Niños</li>
+        </ul>
+        <h5 class="list-group-item">Precio</h5>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger" role="button">2,500-1,000</li>
+          <li class="list-group-item list-group-item-danger" role="button">950-800</li>
+          <li class="list-group-item list-group-item-danger" role="button">750-600</li>
+          <li class="list-group-item list-group-item-danger" role="button">550-300</li>
+        </ul>
+
+        <h5 class="list-group-item">Ofertas(descuentos)</h5>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger" role="button">25%</li>
+          <li class="list-group-item list-group-item-danger" role="button">50%</li>
+          <li class="list-group-item list-group-item-danger" role="button">70%</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-10">
+      <div class="col-md-12">
+        <h3>NEW <span>PRODUCT</span></h3>
+      </div>
+      <!-- PRODUCTO -->
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 well">
+        <div class="photo">
+          <img src="img/product.png" class="img-responsive" alt="a" />
+        </div>
+        <!-- INFO PRODUCTO -->
+        <div class="info text-center">
+          <div class="row">
+            <div class="price col-md-6">
+              <h5>Sample Product</h5>
+              <h5 class="price-text-color">$199.99</h5>
+            </div>
+            <!-- ESTRELLAS -->
+            <div class="rating hidden-sm col-md-6">
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="price-text-color fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <a href="#" data-toggle="modal" data-target="#modal-producto"><button type="button" class="btn" >Ver Producto</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- /CUERPO DE PÁGINA -->
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <h3>Information</h3>
+          <ul class="list-unstyled">
+            <li>Best sellers</li>
+            <li>Our stores</li>      <li>Contact us</li>
+          </ul>
+          <h3>My account</h3>
+          <ul class="list-unstyled">
+            <li>My orders</li>
+            <li>My credit lips</li>
+            <li>My info</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <h3>Terms &amp; Conditions</h3>
+          <ul class="list-unstyled">
+            <li>Help</li>
+            <li>Terms &amp; conditions</li>
+            <li>Shipping support</li>
+            <li>Press room</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <h3>Customer Services</h3>
+          <ul class="list-unstyled">
+            <li>Shipping &amp; Returns</li>
+            <li>Secure Shopping</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12">
+          <h3>Suscribe for news! </h3>
+          <form action="" class="navbar-form" role="suscribe" style="padding-left:0;">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your e-mail" name="email-news">
+              <div class="input-group-btn">
+                <button type="submit" name="button" class="btn btn-danger"><i class="glyphicon glyphicon-envelope"></i></button>
+              </div>
+            </div>
+          </form>
+          <h3>Follow us</h3>
+          <ul class="list-unstyled list-inline features">
+            <li>
+              <a href="#"><i class="fa fa-facebook-square faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter-square faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-rss faa-vertical animated-hover"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus-square faa-vertical animated-hover"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="footer-copy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy; @Web todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /FOOTER-->
+
+  <!-- About US -->
+  <div class="modal fade" id="modal-contact-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>SEND A MENSSAGE</h3>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="contact-name" class="form-control-label">Subject Heading:</label>
+              <select class="form-control" name="">
+                <option value="0">-- Choose ---</option>
+                <option value="1">Custumer Service </option>
+                <option value="2">Webmaster</option>
+
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-control-label">Email Address:</label>
+              <input type="email" class="form-control" id="contact-email">
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-control-label">Order Reference:</label>
+              <input type="email" class="form-control" id="contact-email">
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-control-label">Message:</label>
+              <textarea name="" id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Send Message">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL LOGIN -->
+  <div class="modal fade" id="modal-login-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>Log in</h3>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="login-user" class="form-control-label">Username:</label>
+              <input type="text" placeholder="Enter your username" class="form-control" id="login-user">
+            </div>
+            <div class="form-group">
+              <label for="login-password" class="form-control-label">Password:</label>
+              <input type="password" class="form-control" id="login-password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Log In">
+                <button class="btn btn-danger pull-right" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL REGISTER -->
+  <div class="modal fade" id="modal-register-form" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>Register</h3>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="register-user" class="form-control-label">Username:</label>
+              <input type="text" placeholder="Enter your username" class="form-control" id="register-user">
+            </div>
+            <div class="form-group">
+              <labe class="form-control-label" for="register-email">E-mail:</labe>
+              <input type="e-mail" class="form-control" placeholder="Enter your email" id="register-email">
+            </div>
+            <div class="form-group">
+              <label for="register-password" class="form-control-label">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter your password" id="register-password">
+            </div>
+            <div class="form-group">
+              <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Register now!">
+                <button class="btn btn-danger pull-right" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL PRODUCTO -->
+  <div class="modal fade" id="modal-producto" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h3>Producto</h3>
+        </div>
+        <div class="modal-body">
+            <div class="photo col-md-6">
+              <img src="img/product.png" class="img-responsive" alt="a" />
+            </div>
+            <!-- INFO PRODUCTO -->
+            <hr>
+            <br>
+              <div class="row">
+                <div class="price col-md-5 well">
+                  <h4>Tallas disponibles</h4>
+                  <input type="radio" name="transporte" value="1"><a>&nbsp;&nbsp;27</a>
+                  <br>
+                  <input type="radio" name="transporte" value="1"><a>&nbsp;&nbsp;26.5</a>
+                  <br>
+                  <input type="radio" name="transporte" value="1"><a>&nbsp;&nbsp;25</a>
+                  <br>
+                </div>
+              </div>
+              <p class="btn-add text-center">
+                <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Add to cart</a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 4000
+    });
+  });
+  </script>
+</body>
+
+</html>
